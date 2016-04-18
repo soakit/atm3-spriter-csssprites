@@ -295,8 +295,11 @@ Generator.prototype = {
     },
     px2rem: function (_px) {
         var unit = this.settings.px2rem && !isNaN(parseInt(this.settings.px2rem)) && parseInt(this.settings.px2rem);
-        if (!unit) {
+        if (!this.settings.useRempx) {
             return _px;
+        }
+        if(!unit){
+            return _px;   
         }
         var px = parseInt(_px);
         return typeof _px === 'string' ? px / unit + 'rem ' : px / unit;
