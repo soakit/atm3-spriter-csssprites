@@ -1,6 +1,6 @@
 {
-  "name": "atm3-spriter-csssprites",
-  "version": "0.0.8",
+  "name": "atm4-spriter-csssprites",
+  "version": "0.0.1",
   "description": "基于fis的csssprite，支持repeat-x，repeat-x，background-position",
   "main": "index.js",
   "directories": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/femxd/atm3-spriter-csssprites.git"
+    "url": "https://github.com/soakit/atm3-spriter-csssprites"
   },
   "dependencies": {
     "images": "2.1.10"
@@ -30,6 +30,6 @@
   "author": "xiangshouding <xiangshouding@baidu.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/femxd/atm3-spriter-csssprites/issues"
+    "url": "https://github.com/soakit/atm3-spriter-csssprites"
   }
 }
